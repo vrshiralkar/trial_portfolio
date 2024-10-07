@@ -2476,6 +2476,22 @@ header .logo a {
 	color: #ebebeb;
 }
 
+.contact-info p, .contact-info a {
+    color: #ffffff !important; /* Force white color for text and links */
+    text-decoration: none; /* Remove underline or link styling */
+}
+
+/* Ensure phone numbers are white when displayed as clickable links */
+.contact-info a[href^="tel"] {
+    color: #ffffff !important; /* Ensure phone numbers that are clickable stay white */
+    text-decoration: none; /* Remove underline for phone links */
+}
+
+/* Apply hover state for phone numbers */
+.contact-info a[href^="tel"]:hover {
+    color: #cc005f; /* Optional: Add a hover effect for phone links */
+}
+
 /**
  * loader animation - (_layout.scss)
  * --------------------------------------------------------------- 
