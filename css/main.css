@@ -1254,12 +1254,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #141414;
+	color: #7d7d7d;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #141414;
+	color: #7d7d7d;
 }
 
 /**
@@ -1418,7 +1418,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: #7d7d7d;
 }
 
 /**
@@ -2228,7 +2228,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-	background: #990047;
+	background: #7d7d7d;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
@@ -2489,7 +2489,7 @@ header .logo a {
 
 /* Apply hover state for phone numbers */
 .contact-info a[href^="tel"]:hover {
-    color: #cc005f; /* Optional: Add a hover effect for phone links */
+    color: #7d7d7d; /* Optional: Add a hover effect for phone links */
 }
 
 /**
