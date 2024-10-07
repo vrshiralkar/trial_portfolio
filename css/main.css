@@ -2403,15 +2403,17 @@ header .logo a {
 	display: block;
 	letter-spacing: .2rem;
 	height: 6.6rem;
+	border: 2px solid #ffffff; /* Add a white border */
 	line-height: 6.6rem;
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #141414;
-	color: #FFFFFF;
+	background-color: #313131; /* Dark background for contrast */
+    color: #FFFFFF; /* Bright white text */
 }
-#contact button.submitform:hover, #contact button.submitform:focus {
-	background: #000000;
+#contact button.submitform:hover {
+    background-color: #000000; /* Darker background on hover */
+    color: #ffffff; /* Keep the text color white */
 }
 #message-warning, #message-success {
 	display: none;
@@ -2458,6 +2460,7 @@ header .logo a {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
+	color: #ffffff;
 }
 .contact-info .collapse {
 	padding: 0;
@@ -2470,7 +2473,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .contact-info h5 {
-	color: #141414;
+	color: #ebebeb;
 }
 
 /**
