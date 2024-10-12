@@ -2681,4 +2681,11 @@ header .back-button:hover {
     color: #FFFFFF; /* Black text on hover for contrast */
 }
 
+#about-text {
+    text-align: justify; /* Ensures the text is justified */
+    line-height: 1.6; /* Adjusts line spacing for better readability */
+    margin: 20px 0; /* Adds margin around the text for spacing */
+    font-size: 18px; /* Adjusts font size to make it more readable */
+}
+
 /*# sourceMappingURL=main.css.map */
