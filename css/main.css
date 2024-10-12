@@ -2667,7 +2667,6 @@ header .back-button {
     font-weight: bold;
     color: #fff; /* Ensure the text is white */
     background-color: #141414; /* Dark background for better contrast */
-    border: 2px solid #fff; /* White border to make it more distinct */
     border-radius: 5px; /* Rounded corners */
     text-transform: uppercase; /* Uppercase for bold styling */
     text-decoration: none;
