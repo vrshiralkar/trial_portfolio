@@ -227,7 +227,7 @@
 			$.ajax({      	
 
 		      type: "POST",
-		      url: "https://formspree.io/forms/mjkvvyvv/integration",
+		      url: "https://formspree.io/forms/mjkvvyvv",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
