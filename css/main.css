@@ -2687,5 +2687,11 @@ header .back-button:hover {
     margin: 20px 0; /* Adds margin around the text for spacing */
     font-size: 18px; /* Adjusts font size to make it more readable */
 }
+.about-text1 {
+    text-align: justify; /* Ensures the text is justified */
+    line-height: 1.6; /* Adjusts line spacing for better readability */
+    margin: 20px 0; /* Adds margin around the text for spacing */
+    font-size: 18px; /* Adjusts font size to make it more readable */
+}
 
 /*# sourceMappingURL=main.css.map */
